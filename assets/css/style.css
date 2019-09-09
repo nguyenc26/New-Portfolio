@@ -1,8 +1,25 @@
-body{
-    font-family: 'Orbitron', sans-serif;
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
 }
 
+main {
+    flex: 1 0 auto;
+}
 
-#logo-container {
-    font-family: 'Satisfy', cursive;
+h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+.material-icons {
+    color: black;
+}
+
+a {
+    text-align: center;
+}
+
+img, .bio {
+    margin: 10px;
 }

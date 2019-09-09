@@ -1,39 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cuong Phu Nguyen</title>
 
-    <!-- CSS Reset -->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!--Google Fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Cookie|Dancing+Script|Great+Vibes|Orbitron|Sacramento|Satisfy&display=swap" rel="stylesheet">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cuong Phu Nguyen</title>
+
+  <!-- CSS Reset -->
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Cookie|Dancing+Script|Great+Vibes|Orbitron|Sacramento|Satisfy&display=swap"
+    rel="stylesheet">
 </head>
+
 <body>
-    <nav class="black" role="navigation">
-        <div class="nav-wrapper container">
-          <a id="logo-container" href="index.html" class="brand-logo">Cuong Nguyen</a>
-          <ul class="right hide-on-med-and-down">
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 class="header center black-text">Cuong Nguyen</h1>
+
+        <div class="row center">
+          <h5 class="header col s12 light black-text">My Portfolio</h5>
+          <ul id="dropdown2" class="dropdown-content">
             <li><a href="index.html">About Me</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="portfolio.html">Projects</a></li>
             <li><a href="contact.html">Contact Me</a></li>
           </ul>
-    
-          <ul id="nav-mobile" class="sidenav">
-            <li><a href="index.html">About Me</a></li>
-            <li><a href="portfolio.html">Portfolio</a></li>
-            <li><a href="contact.html">Contact Me</a></li>
-          </ul>
-          <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          <a class="dropdown-button col s12" href="#!" data-activates="dropdown2"><i
+              class="small material-icons">menu</i>
+          </a>
         </div>
-      </nav>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><img src="assets/images/architectural-design-architecture-buildings-2872733.jpg"
+        alt="Minneapolis background img 1"></div>
+  </div>
+
+
+  <div class="container">
+    <h4 class="center">My Story</h4>
+    <hr><br><br>
+    <div class="col s4 left">
+        <img src="assets/images/Cuong.jpg" alt="Cuong's picture" style="width:200px;height:200px;">
+    </div>
+    
+    <div class="col s8 bio">
+        My name is Cuong Nguyen. I graduated from Augsburg University in 2016 with a double major in Biology and Psychology. Currently, I work at the University of Minnesota in Housing and Residential Life as an Assistant Residence Director. 
+        <br>
+        <br>
+        I love socializing with others so during my free time, I like to go out with friends. We try new restaurants around the cities and try to attend fairs to try new foods. Some of my hobbies are cooking, collecting watches and FunkoPop figures. Currently, I have around 13 watches and upwards of 80+ FunkoPop figures. I also like to watch cooking videos and trying to recreate the recipes. I recently bought a cookbook so I can have a base for some recipes and changing it up to how I like things and hopefully will be able to develop some recipes of my own as I learn more. 
+    </div>
+  </div>
+  <br><br>
+  <br><br>
+
+
+
+  <footer class="page-footer black">
+    <div class="footer-copyright white-text center">
+      Made by Cuong Nguyen &copy
+    </div>
+  </footer>
+
+  <script src="assets/js/logic.js"></script>
+
 </body>
+
 </html>
