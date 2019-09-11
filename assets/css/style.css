@@ -20,6 +20,6 @@ a {
     text-align: center;
 }
 
-img, .bio {
+#myimg, .bio {
     margin: 10px;
 }
