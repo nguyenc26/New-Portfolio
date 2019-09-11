@@ -25,5 +25,16 @@ a {
 }
 
 .parallax-container {
-    height: 400px;
+    height: 900px;
+}
+
+.activator {
+    height: 155px;
+    width: 275px;
+}
+
+#linkedIn, #Email, #phoneNumber, #Resume {
+    color: white;
+    height: 50px;
+    width: 50px;
 }
