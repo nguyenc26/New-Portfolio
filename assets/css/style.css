@@ -23,3 +23,7 @@ a {
 #myimg, .bio {
     margin: 10px;
 }
+
+.parallax-container {
+    height: 400px;
+}
