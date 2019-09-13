@@ -10,6 +10,7 @@ main {
 
 h1 {
     font-family: 'Dancing Script', cursive;
+    font-size: 10.2rem;
 }
 
 .material-icons {
@@ -33,8 +34,10 @@ a {
     width: 275px;
 }
 
-#linkedIn, #Email, #phoneNumber, #Resume {
-    color: white;
-    height: 35px;
-    width: 35px;
+h5 {
+    font-size: 2.64rem;
+}
+
+.page-footer {
+    padding: 30px;
 }
