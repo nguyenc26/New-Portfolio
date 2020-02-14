@@ -43,6 +43,7 @@ img {
 }
 
 .bio{
-    font-size: large;
     font-family: 'Sriracha', cursive;
+    color: black;
+    font-size: 19px;
 }
