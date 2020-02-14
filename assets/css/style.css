@@ -41,3 +41,8 @@ img {
     width: 270px;
     height: 275px;
 }
+
+.bio{
+    font-size: large;
+    font-family: 'Sriracha', cursive;
+}
